@@ -1,26 +1,18 @@
-# 2-VBA-Market Trend Analysis
+# 2-VBA-Stock Market Data Analysis
 
 ## Background
 
-Over $2 billion has been raised using the massively successful crowdfunding service, Kickstarter, but not every project has found success. Of the more than 300,000 projects launched on Kickstarter, only a third have made it through the funding process with a positive outcome.
-
-Getting funded on Kickstarter requires meeting or exceeding the project's initial goal, so many organizations spend months looking through past projects in an attempt to discover some trick for finding success. For this week's homework, I will organize and analyze a database of 4,000 past projects in order to uncover any hidden trends.
+In this project I will use VBA scripting to analyze real stock market data for multiple years. 
 
 ## Analysis
-* Use Excel VBA to evaluate the following for successful campaigns, and then for unsuccessful campaigns:
+* Create a script that will loop through all the stocks for one year and output the following information.
 
-  * The mean number of backers.
+  * The ticker symbol.
 
-  * The median number of backers.
+  * Yearly change from opening price at the beginning of a given year to the closing price at the end of that year.
 
-  * The minimum number of backers.
+  * The percent change from opening price at the beginning of a given year to the closing price at the end of that year.
 
-  * The maximum number of backers.
-
-  * The variance of the number of backers.
-
-  * The standard deviation of the number of backers.
-
-* Use data to determine whether the mean or the median summarizes the data more meaningfully.
-
-* Use data to determine if there is more variability with successful or unsuccessful campaigns. 
+  * The total stock volume of the stock.
+  
+  * Conditional formatting that will highlight positive change in green and negative change in red.
